@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+/*--navbar-section--*/
+.navbar-brand {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.image1 {
+  margin-top: -15%;
+}
+
+.navbar {
+  background: #000;
+}
+
+ul {
+  margin-left: 40%;
+}
+
+.nav-item {
+  padding: 2.5rem;
+  font-size: 13px;
+}
+
+.navbar-toggler {
+  background: #fff;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-right: 70%;
+  }
+  ul {
+    margin-left: 0;
+  }
+  .nav-item {
+    padding: 0;
+    font-size: 17px;
+  }
+}
+
+/*--home-section--*/
+#home-section {
+  min-height: 700px;
+  position: relative;
+  background-image: url("../img/bannerbg.e2a11b86 (1).jpg");
+  background-position: center;
+}
+
+#home-section .dark-overlay {
+  min-height: 700px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 3, 3, 0.7)), to(rgba(3, 3, 3, 0.7)));
+  background: linear-gradient(rgba(3, 3, 3, 0.7), rgba(3, 3, 3, 0.7));
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#home-section .heading {
+  font-size: 55px;
+  margin: 200px 0px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Chakra Petch",sans-serif;
+}
+
+#home-section .para {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#home-section .btn-join {
+  padding: 15px 50px 15px 50px;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  border-style: solid;
+  border-color: #895EAF #646FCE;
+  color: #fff;
+}
+
+#home-section .btn-join:hover {
+  background: #fff;
+  color: #333;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+}
+
+#home-section .vedio {
+  margin: 150px 100px 20px;
+  border: 25px solid rgba(3, 3, 3, 0.7);
+  border-radius: 5px;
+}
+
+#home-section .icon {
+  margin-top: 200px;
+}
+
+#home-section .icon .fab {
+  padding-top: 30px;
+  margin-right: -40px;
+  font-size: 25px;
+  color: #fff;
+}
+
+#home-section .icon .fab:hover {
+  color: #895EAF;
+}
+
+@media (max-width: 768px) {
+  #home-section .heading {
+    font-size: 40px;
+  }
+  #home-section .vedio {
+    display: none;
+  }
+  #home-section .icon .fab {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #home-section {
+    text-align: center;
+  }
+}
+
+/*--welcome-section--*/
+#welcome-section {
+  background: #000;
+}
+
+#welcome-section .welcome-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: "Chakra Petch",sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+}
+
+#welcome-section .paragraph {
+  line-height: 30px;
+}
+
+#welcome-section .what li {
+  background: url("../img/download (1).png") no-repeat;
+  background-position: left top 5px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  text-align: justify;
+  display: list-item;
+}
+
+#welcome-section .vedio {
+  width: 250px;
+  height: 250px;
+  margin-top: 20%;
+}
+
+@media (max-width: 768px) {
+  #welcome-section {
+    text-align: center;
+  }
+  #welcome-section .vedio {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+}
+
+/*--roadmap-section--*/
+#roadmap {
+  background: #000;
+}
+
+#roadmap .welcome-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: "Chakra Petch",sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+}
+
+#roadmap .para2 {
+  background: #161616;
+  padding: 20px;
+  padding-right: 10px;
+  line-height: 24px;
+  border-radius: 5px;
+  margin-bottom: 20%;
+  margin-left: 15%;
+  width: 80%;
+}
+
+#roadmap .para3 {
+  background: #161616;
+  padding: 20px;
+  padding-right: 10px;
+  line-height: 24px;
+  border-radius: 5px;
+  margin-top: 30%;
+  width: 100%;
+}
+
+#roadmap .tenpersen {
+  float: left;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
+
+#roadmap .image {
+  background: #161616;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+#roadmap .line {
+  width: 1px;
+  height: 6rem;
+  background: #895EAF;
+  margin-left: 1.5rem;
+}
+
+#roadmap .line1 {
+  width: 1px;
+  height: 4rem;
+  background: #895EAF;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  #roadmap .para2 {
+    display: none;
+  }
+}
+
+/*--royal-ceramic-section--*/
+#royal-ceramic {
+  background: #000;
+}
+
+#royal-ceramic .welcome-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: "Chakra Petch",sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+  line-height: 50px;
+}
+
+#royal-ceramic .paragraph {
+  line-height: 30px;
+}
+
+#royal-ceramic li {
+  background: url("../img/download (1).png") no-repeat;
+  background-position: left top 5px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+#royal-ceramic .image3 {
+  margin-top: 12%;
+}
+
+@media (max-width: 768px) {
+  #royal-ceramic .image3 {
+    display: none;
+  }
+}
+
+/*--attributers-section--*/
+#attributers-section {
+  background: #4B3A6F;
+}
+
+#attributers-section .para3 {
+  line-height: 30px;
+}
+
+#attributers-section .attributers {
+  font-size: 50px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+
+/*--purchase-section--*/
+#purchase-section {
+  min-height: 600px;
+  margin-top: 2rem;
+  background-image: url("../img/purchase_bg.4c625783.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 100px 0px 0px;
+}
+
+#purchase-section .mint {
+  background: #000;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#purchase-section .product-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#purchase-section .amount1 {
+  color: #895EAF;
+  margin-left: 50%;
+}
+
+#purchase-section .btn {
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  border-style: solid;
+  border-color: #646FCE #646FCE #895EAF #895EAF;
+  color: #fff;
+  padding: 10px;
+}
+
+#purchase-section .btn-mint {
+  background-color: #646FCE;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#646FCE), to(#895EAF));
+  background-image: linear-gradient(#646FCE, #895EAF);
+  padding: 15px 40px 15px 40px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#purchase-section .purchase1 {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#purchase-section .para4 {
+  font-size: 13px;
+}
+
+#purchase-section .purchase {
+  font-size: 45px;
+  font-weight: 700px;
+  margin-bottom: 2rem;
+}
+
+#purchase-section .para5 {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+/*--faq-section--*/
+#faq-section .heading {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+#faq-section .card {
+  background: #000;
+}
+
+#faq-section .btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq-section .line {
+  width: 100%;
+  height: 1px;
+  background: #333;
+}
+
+#faq-section .line1 {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+
+#faq-section .plus {
+  display: inline-block;
+  margin-left: 300%;
+}
+
+#faq-section .plus1 {
+  display: inline-block;
+  margin-left: 320%;
+}
+
+#faq-section .plus2 {
+  display: inline-block;
+  margin-left: 320%;
+}
+
+#faq-section .plus3 {
+  display: inline-block;
+  margin-left: 140%;
+}
+
+#faq-section .plus4 {
+  display: inline-block;
+  margin-left: 390%;
+}
+
+#faq-section .plus5 {
+  display: inline-block;
+  margin-left: 250%;
+}
+
+#faq-section .plus6 {
+  display: inline-block;
+  margin-left: 320%;
+}
+
+@media (max-width: 500px) {
+  #faq-section .icons {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #faq-section .icons {
+    cursor: pointer;
+    margin-left: 50%;
+  }
+}
+
+/*--team-section--*/
+#team-section .team {
+  font-size: 45px;
+  font-weight: 700px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+#team-section .para6 {
+  font-size: 17px;
+}
+
+#team-section .para7 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#team-section .image6 {
+  width: 90%;
+  border: 1px solid #895EAF;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 16px;
+}
+
+#team-section .para8 {
+  text-align: center;
+  color: #895EAF;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#team-section .para9 {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*--footer-section--*/
+#footer-section .footer-para {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
